@@ -3,7 +3,6 @@
 
 #include "ofxOsc.h"
 #include "ofxSvg.h"
-#include "ofxPiTFT.h"
 
 #include "vPlotter.h"
 
@@ -24,8 +23,6 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
 
-    ofxPiTFT            smallDisplay;
-    
     ofxOscReceiver      receiver;
 
     vPlotter            plotter;

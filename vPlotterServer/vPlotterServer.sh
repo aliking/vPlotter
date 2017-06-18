@@ -11,7 +11,7 @@
 # Description:       Open GPIO's and run the node.js server that administrate vPlotter
 ### END INIT INFO
 
-SERVER_PATH=/home/pi/openFrameworks/apps/vPlotter/vPlotterServer
+SERVER_PATH=/home/ali/openFrameworks/apps/vPlotter/vPlotterServer
 SERVER_JS=server.js
 USER=pi
 OUT=nodejs.log
